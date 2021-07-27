@@ -1,0 +1,413 @@
+{
+    "collect_cpu_bench": {
+        "Threads(1) * Events(10000) * MaxPrime(40000)": {
+            "CPU speed": {
+                "events per second": "201.71"
+            },
+            "General statistics": {
+                "total time": "49.5741s",
+                "total number of events": "10000"
+            },
+            "Latency (ms)": {
+                "min": "4.93",
+                "avg": "4.96",
+                "max": "5.45",
+                "95th percentile": "5.00",
+                "sum": "49571.22"
+            },
+            "Threads fairness": {
+                "events (avg/stddev)": "10000.0000/0.00",
+                "execution time (avg/stddev)": "49.5712/0.00"
+            }
+        },
+        "Threads(1) * Events(30000) * MaxPrime(80000)": {
+            "CPU speed": {
+                "events per second": "77.66"
+            },
+            "General statistics": {
+                "total time": "386.3175s",
+                "total number of events": "30000"
+            },
+            "Latency (ms)": {
+                "min": "12.81",
+                "avg": "12.88",
+                "max": "14.16",
+                "95th percentile": "12.98",
+                "sum": "386308.11"
+            },
+            "Threads fairness": {
+                "events (avg/stddev)": "30000.0000/0.00",
+                "execution time (avg/stddev)": "386.3081/0.00"
+            }
+        },
+        "Threads(4) * Events(10000) * MaxPrime(40000)": {
+            "CPU speed": {
+                "events per second": "766.50"
+            },
+            "General statistics": {
+                "total time": "13.0450s",
+                "total number of events": "10000"
+            },
+            "Latency (ms)": {
+                "min": "5.15",
+                "avg": "5.22",
+                "max": "22.03",
+                "95th percentile": "5.18",
+                "sum": "52172.43"
+            },
+            "Threads fairness": {
+                "events (avg/stddev)": "2500.0000/2.74",
+                "execution time (avg/stddev)": "13.0431/0.00"
+            }
+        },
+        "Threads(4) * Events(30000) * MaxPrime(80000)": {
+            "CPU speed": {
+                "events per second": "294.55"
+            },
+            "General statistics": {
+                "total time": "101.8486s",
+                "total number of events": "30000"
+            },
+            "Latency (ms)": {
+                "min": "13.44",
+                "avg": "13.58",
+                "max": "49.00",
+                "95th percentile": "13.70",
+                "sum": "407376.27"
+            },
+            "Threads fairness": {
+                "events (avg/stddev)": "7500.0000/3.94",
+                "execution time (avg/stddev)": "101.8441/0.00"
+            }
+        },
+        "Threads(8) * Events(10000) * MaxPrime(40000)": {
+            "CPU speed": {
+                "events per second": "766.56"
+            },
+            "General statistics": {
+                "total time": "13.0442s",
+                "total number of events": "10000"
+            },
+            "Latency (ms)": {
+                "min": "5.20",
+                "avg": "10.43",
+                "max": "37.20",
+                "95th percentile": "17.95",
+                "sum": "104277.12"
+            },
+            "Threads fairness": {
+                "events (avg/stddev)": "1250.0000/14.48",
+                "execution time (avg/stddev)": "13.0346/0.01"
+            }
+        },
+        "Threads(8) * Events(30000) * MaxPrime(80000)": {
+            "CPU speed": {
+                "events per second": "294.94"
+            },
+            "General statistics": {
+                "total time": "101.7156s",
+                "total number of events": "30000"
+            },
+            "Latency (ms)": {
+                "min": "13.52",
+                "avg": "27.12",
+                "max": "62.59",
+                "95th percentile": "37.56",
+                "sum": "813564.52"
+            },
+            "Threads fairness": {
+                "events (avg/stddev)": "3750.0000/24.67",
+                "execution time (avg/stddev)": "101.6956/0.01"
+            }
+        },
+        "Threads(16) * Events(10000) * MaxPrime(40000)": {
+            "CPU speed": {
+                "events per second": "765.95"
+            },
+            "General statistics": {
+                "total time": "13.0545s",
+                "total number of events": "10000"
+            },
+            "Latency (ms)": {
+                "min": "5.20",
+                "avg": "20.85",
+                "max": "97.40",
+                "95th percentile": "33.12",
+                "sum": "208481.79"
+            },
+            "Threads fairness": {
+                "events (avg/stddev)": "625.0000/10.76",
+                "execution time (avg/stddev)": "13.0301/0.02"
+            }
+        },
+        "Threads(16) * Events(30000) * MaxPrime(80000)": {
+            "CPU speed": {
+                "events per second": "291.79"
+            },
+            "General statistics": {
+                "total time": "102.8113s",
+                "total number of events": "30000"
+            },
+            "Latency (ms)": {
+                "min": "13.52",
+                "avg": "54.82",
+                "max": "221.60",
+                "95th percentile": "69.29",
+                "sum": "1644553.99"
+            },
+            "Threads fairness": {
+                "events (avg/stddev)": "1875.0000/7.04",
+                "execution time (avg/stddev)": "102.7846/0.01"
+            }
+        },
+        "Threads(32) * Events(10000) * MaxPrime(40000)": {
+            "CPU speed": {
+                "events per second": "766.00"
+            },
+            "General statistics": {
+                "total time": "13.0535s",
+                "total number of events": "10000"
+            },
+            "Latency (ms)": {
+                "min": "5.20",
+                "avg": "41.65",
+                "max": "105.21",
+                "95th percentile": "62.19",
+                "sum": "416452.47"
+            },
+            "Threads fairness": {
+                "events (avg/stddev)": "312.5000/1.87",
+                "execution time (avg/stddev)": "13.0141/0.02"
+            }
+        },
+        "Threads(32) * Events(30000) * MaxPrime(80000)": {
+            "CPU speed": {
+                "events per second": "294.82"
+            },
+            "General statistics": {
+                "total time": "101.7559s",
+                "total number of events": "30000"
+            },
+            "Latency (ms)": {
+                "min": "13.53",
+                "avg": "108.44",
+                "max": "201.53",
+                "95th percentile": "130.13",
+                "sum": "3253124.27"
+            },
+            "Threads fairness": {
+                "events (avg/stddev)": "937.5000/2.37",
+                "execution time (avg/stddev)": "101.6601/0.04"
+            }
+        }
+    },
+    "collect_cpu_info": {
+        "static": {
+            "Architecture": "x86_64",
+            "CPU op-mode(s)": "32-bit, 64-bit",
+            "Byte Order": "Little Endian",
+            "CPU(s)": "4",
+            "On-line CPU(s) list": "0-3",
+            "Thread(s) per core": "1",
+            "Core(s) per socket": "4",
+            "Socket(s)": "1",
+            "NUMA node(s)": "1",
+            "Vendor ID": "GenuineIntel",
+            "CPU family": "6",
+            "Model": "158",
+            "Model name": "Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz",
+            "Stepping": "9",
+            "CPU MHz": "3743.651",
+            "CPU max MHz": "3800.0000",
+            "CPU min MHz": "800.0000",
+            "BogoMIPS": "6799.81",
+            "Virtualization": "VT-x",
+            "L1d cache": "32K",
+            "L1i cache": "32K",
+            "L2 cache": "256K",
+            "L3 cache": "6144K",
+            "NUMA node0 CPU(s)": "0-3",
+            "Flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d"
+        },
+        "dynamic": {
+            "processor": "0",
+            "vendor_id": "GenuineIntel",
+            "cpu family": "6",
+            "model": "158",
+            "model name": "Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz",
+            "stepping": "9",
+            "microcode": "0xd6",
+            "cpu MHz": "3743.651",
+            "cache size": "6144 KB",
+            "physical id": "0",
+            "siblings": "4",
+            "core id": "0",
+            "cpu cores": "4",
+            "apicid": "0",
+            "initial apicid": "0",
+            "fpu": "yes",
+            "fpu_exception": "yes",
+            "cpuid level": "22",
+            "wp": "yes",
+            "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d",
+            "bugs": "cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs taa itlb_multihit srbds",
+            "bogomips": "6799.81",
+            "clflush size": "64",
+            "cache_alignment": "64",
+            "address sizes": "39 bits physical, 48 bits virtual",
+            "power management": ""
+        }
+    },
+    "collect_disk_info": {
+        "TotalSize": "224.3 GiB"
+    },
+    "collect_mem_bench": {
+        "Mode(seq) * Operation(read)": {
+            "Memory speed": "7431.67 MiB/sec",
+            "General statistics": {
+                "total time": "27.5565s",
+                "total number of events": "209715200"
+            },
+            "Latency (ms)": {
+                "min": "0.00",
+                "avg": "0.00",
+                "max": "0.30",
+                "95th percentile": "0.00",
+                "sum": "8473.41"
+            },
+            "Threads fairness": {
+                "events (avg/stddev)": "209715200.0000/0.00",
+                "execution time (avg/stddev)": "8.4734/0.00"
+            }
+        },
+        "Mode(rnd) * Operation(read)": {
+            "Memory speed": "2265.49 MiB/sec",
+            "General statistics": {
+                "total time": "90.3987s",
+                "total number of events": "209715200"
+            },
+            "Latency (ms)": {
+                "min": "0.00",
+                "avg": "0.00",
+                "max": "0.31",
+                "95th percentile": "0.00",
+                "sum": "71499.68"
+            },
+            "Threads fairness": {
+                "events (avg/stddev)": "209715200.0000/0.00",
+                "execution time (avg/stddev)": "71.4997/0.00"
+            }
+        },
+        "Mode(seq) * Operation(write)": {
+            "Memory speed": "5866.30 MiB/sec",
+            "General statistics": {
+                "total time": "34.9100s",
+                "total number of events": "209715200"
+            },
+            "Latency (ms)": {
+                "min": "0.00",
+                "avg": "0.00",
+                "max": "0.31",
+                "95th percentile": "0.00",
+                "sum": "15944.27"
+            },
+            "Threads fairness": {
+                "events (avg/stddev)": "209715200.0000/0.00",
+                "execution time (avg/stddev)": "15.9443/0.00"
+            }
+        },
+        "Mode(rnd) * Operation(write)": {
+            "Memory speed": "2172.02 MiB/sec",
+            "General statistics": {
+                "total time": "94.2887s",
+                "total number of events": "209715200"
+            },
+            "Latency (ms)": {
+                "min": "0.00",
+                "avg": "0.00",
+                "max": "0.08",
+                "95th percentile": "0.00",
+                "sum": "75055.75"
+            },
+            "Threads fairness": {
+                "events (avg/stddev)": "209715200.0000/0.00",
+                "execution time (avg/stddev)": "75.0557/0.00"
+            }
+        }
+    },
+    "collect_mem_info": {
+        "MemTotal": "8042888 kB",
+        "MemFree": "156760 kB",
+        "MemAvailable": "3742956 kB",
+        "Buffers": "296204 kB",
+        "Cached": "3690688 kB",
+        "SwapCached": "6800 kB",
+        "Active": "5573028 kB",
+        "Inactive": "1775092 kB",
+        "Active(anon)": "3177968 kB",
+        "Inactive(anon)": "577416 kB",
+        "Active(file)": "2395060 kB",
+        "Inactive(file)": "1197676 kB",
+        "Unevictable": "1400 kB",
+        "Mlocked": "108 kB",
+        "SwapTotal": "2097148 kB",
+        "SwapFree": "2088188 kB",
+        "Dirty": "240 kB",
+        "Writeback": "0 kB",
+        "AnonPages": "3329660 kB",
+        "Mapped": "885232 kB",
+        "Shmem": "398156 kB",
+        "KReclaimable": "302388 kB",
+        "Slab": "384444 kB",
+        "SReclaimable": "302388 kB",
+        "SUnreclaim": "82056 kB",
+        "KernelStack": "16384 kB",
+        "PageTables": "67168 kB",
+        "NFS_Unstable": "0 kB",
+        "Bounce": "0 kB",
+        "WritebackTmp": "0 kB",
+        "CommitLimit": "6118592 kB",
+        "Committed_AS": "9871084 kB",
+        "VmallocTotal": "34359738367 kB",
+        "VmallocUsed": "37436 kB",
+        "VmallocChunk": "0 kB",
+        "Percpu": "1584 kB",
+        "HardwareCorrupted": "0 kB",
+        "AnonHugePages": "26624 kB",
+        "ShmemHugePages": "0 kB",
+        "ShmemPmdMapped": "0 kB",
+        "FileHugePages": "0 kB",
+        "FilePmdMapped": "0 kB",
+        "CmaTotal": "0 kB",
+        "CmaFree": "0 kB",
+        "HugePages_Total": "0",
+        "HugePages_Free": "0",
+        "HugePages_Rsvd": "0",
+        "HugePages_Surp": "0",
+        "Hugepagesize": "2048 kB",
+        "Hugetlb": "0 kB",
+        "DirectMap4k": "283168 kB",
+        "DirectMap2M": "7995392 kB",
+        "DirectMap1G": "0 kB"
+    },
+    "collect_pci_info": {
+        "00:00.0 Host bridge": "Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers (rev 05)",
+        "00:02.0 VGA compatible controller": "Intel Corporation HD Graphics 630 (rev 04)",
+        "00:08.0 System peripheral": "Intel Corporation Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model",
+        "00:14.0 USB controller": "Intel Corporation 100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller (rev 31)",
+        "00:14.2 Signal processing controller": "Intel Corporation 100 Series/C230 Series Chipset Family Thermal Subsystem (rev 31)",
+        "00:16.0 Communication controller": "Intel Corporation 100 Series/C230 Series Chipset Family MEI Controller #1 (rev 31)",
+        "00:17.0 SATA controller": "Intel Corporation Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode] (rev 31)",
+        "00:1c.0 PCI bridge": "Intel Corporation 100 Series/C230 Series Chipset Family PCI Express Root Port #5 (rev f1)",
+        "00:1f.0 ISA bridge": "Intel Corporation H110 Chipset LPC/eSPI Controller (rev 31)",
+        "00:1f.2 Memory controller": "Intel Corporation 100 Series/C230 Series Chipset Family Power Management Controller (rev 31)",
+        "00:1f.3 Audio device": "Intel Corporation 100 Series/C230 Series Chipset Family HD Audio Controller (rev 31)",
+        "00:1f.4 SMBus": "Intel Corporation 100 Series/C230 Series Chipset Family SMBus (rev 31)",
+        "01:00.0 Ethernet controller": "Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 15)"
+    },
+    "collect_strcmp_info": {
+        "time_costs_average": "0.007759s",
+        "time_costs_max": "0.008112s",
+        "time_costs_min": "0.007652s"
+    }
+}

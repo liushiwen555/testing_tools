@@ -1,0 +1,257 @@
+No.     Time           Source                Destination           Protocol Length Info
+     14 8.801602       192.168.0.2           192.168.0.1           COTP     89     CR TPDU src-ref: 0x002a dst-ref: 0x0000
+
+Frame 14: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface 0
+Ethernet II, Src: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e), Dst: Siemens_5f:fa:41 (ac:64:17:5f:fa:41)
+Internet Protocol Version 4, Src: 192.168.0.2, Dst: 192.168.0.1
+Transmission Control Protocol, Src Port: 51137, Dst Port: 102, Seq: 1, Ack: 1, Len: 35
+TPKT, Version: 3, Length: 35
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 8.802141       192.168.0.1           192.168.0.2           COTP     89     CC TPDU src-ref: 0x0021 dst-ref: 0x002a
+
+Frame 15: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface 0
+Ethernet II, Src: Siemens_5f:fa:41 (ac:64:17:5f:fa:41), Dst: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.2
+Transmission Control Protocol, Src Port: 102, Dst Port: 51137, Seq: 1, Ack: 36, Len: 35
+TPKT, Version: 3, Length: 35
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 8.803142       192.168.0.2           192.168.0.1           COTP     300    DT TPDU (0) EOT
+
+Frame 16: 300 bytes on wire (2400 bits), 300 bytes captured (2400 bits) on interface 0
+Ethernet II, Src: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e), Dst: Siemens_5f:fa:41 (ac:64:17:5f:fa:41)
+Internet Protocol Version 4, Src: 192.168.0.2, Dst: 192.168.0.1
+Transmission Control Protocol, Src Port: 51137, Dst Port: 102, Seq: 36, Ack: 36, Len: 246
+TPKT, Version: 3, Length: 246
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+Data (239 bytes)
+
+0000  72 01 00 e7 31 00 00 04 ca 00 00 00 01 00 00 01   r...1...........
+0010  20 36 00 00 01 1d 00 04 00 00 00 00 00 a1 00 00    6..............
+0020  00 d3 82 1f 00 00 a3 81 69 00 15 15 53 65 72 76   ........i...Serv
+0030  65 72 53 65 73 73 69 6f 6e 5f 31 43 39 43 33 38   erSession_1C9C38
+0040  46 a3 82 21 00 15 3b 30 2e 30 2e 30 2e 30 3a 30   F..!..;0.0.0.0:0
+0050  49 6e 74 65 6c 28 52 29 20 38 32 35 37 34 4c 20   Intel(R) 82574L 
+0060  47 69 67 61 62 69 74 20 4e 65 74 77 6f 72 6b 20   Gigabit Network 
+0070  43 6f 6e 6e 65 63 74 69 6f 6e 2e 54 43 50 49 50   Connection.TCPIP
+0080  2e 31 a3 82 28 00 15 00 a3 82 29 00 15 00 a3 82   .1..(.....).....
+0090  2a 00 15 18 44 45 53 4b 54 4f 50 2d 54 48 38 37   *...DESKTOP-TH87
+00a0  4f 39 30 5f 38 33 33 36 30 31 34 30 a3 82 2b 00   O90_83360140..+.
+00b0  04 01 a3 82 2c 00 12 01 c9 c3 8f a3 82 2d 00 15   ....,........-..
+00c0  00 a1 00 00 00 d3 81 7f 00 00 a3 81 69 00 15 15   ............i...
+00d0  53 75 62 73 63 72 69 70 74 69 6f 6e 43 6f 6e 74   SubscriptionCont
+00e0  61 69 6e 65 72 a2 a2 00 00 00 00 72 01 00 00      ainer......r...
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 8.806659       192.168.0.1           192.168.0.2           COTP     288    DT TPDU (0) EOT
+
+Frame 17: 288 bytes on wire (2304 bits), 288 bytes captured (2304 bits) on interface 0
+Ethernet II, Src: Siemens_5f:fa:41 (ac:64:17:5f:fa:41), Dst: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.2
+Transmission Control Protocol, Src Port: 102, Dst Port: 51137, Seq: 36, Ack: 282, Len: 234
+TPKT, Version: 3, Length: 234
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+Data (227 bytes)
+
+0000  72 01 00 db 32 00 00 04 ca 00 00 00 01 36 00 02   r...2........6..
+0010  87 80 80 9c 4c 87 80 80 9c 4d a1 00 00 01 20 82   ....L....M.... .
+0020  1f 01 00 a3 81 69 00 15 13 30 30 3a 31 38 31 42   .....i...00:181B
+0030  37 42 30 38 34 37 44 31 31 36 39 34 a3 82 2b 00   7B0847D11694..+.
+0040  04 82 80 80 80 01 a3 82 2d 00 15 1c 4f 4d 53 50   ........-...OMSP
+0050  5f 31 30 2e 30 30 2e 30 30 2e 30 37 5f 33 34 2e   _10.00.00.07_34.
+0060  30 30 2e 30 30 2e 30 30 a3 82 2f 10 02 14 3a 36   00.00.00../...:6
+0070  7c 57 be 8d 31 e8 11 5b b4 ce 3b 54 4c 1f ad dc   |W..1..[..;TL...
+0080  86 b0 a3 82 32 00 17 00 00 01 3a 82 3b 00 04 85   ....2.....:.;...
+0090  00 82 3c 00 04 84 00 82 3d 00 04 84 81 83 40 82   ..<.....=.....@.
+00a0  3e 00 04 84 81 82 40 82 3f 00 15 1a 31 3b 36 45   >.....@.?...1;6E
+00b0  53 37 20 35 31 35 2d 32 41 4d 30 31 2d 30 41 42   S7 515-2AM01-0AB
+00c0  30 3b 56 32 2e 36 82 40 00 15 08 32 3b 34 38 34   0;V2.6.@...2;484
+00d0  31 33 30 82 41 00 03 00 03 00 a2 00 00 00 00 72   130.A..........r
+00e0  01 00 00                                          ...
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 8.874356       192.168.0.1           192.168.0.2           COTP     86     DT TPDU (0) EOT
+
+Frame 21: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: Siemens_5f:fa:41 (ac:64:17:5f:fa:41), Dst: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.2
+Transmission Control Protocol, Src Port: 102, Dst Port: 51137, Seq: 270, Ack: 711, Len: 32
+TPKT, Version: 3, Length: 32
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+Data (25 bytes)
+
+0000  72 02 00 11 32 00 00 05 42 00 00 00 02 34 00 00   r...2...B....4..
+0010  00 00 00 00 00 72 02 00 00                        .....r...
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 8.896674       192.168.0.1           192.168.0.2           COTP     118    DT TPDU (0) EOT
+
+Frame 25: 118 bytes on wire (944 bits), 118 bytes captured (944 bits) on interface 0
+Ethernet II, Src: Siemens_5f:fa:41 (ac:64:17:5f:fa:41), Dst: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.2
+Transmission Control Protocol, Src Port: 102, Dst Port: 51137, Seq: 302, Ack: 920, Len: 64
+TPKT, Version: 3, Length: 64
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+Data (57 bytes)
+
+0000  72 03 00 31 20 ad cb bb 43 3e 5c c1 31 55 47 d4   r..1 ...C>\.1UG.
+0010  84 52 5e 4c de c8 9c 5a 6b 81 a6 c0 91 f7 bb e8   .R^L...Zk.......
+0020  96 15 f5 c8 43 32 00 00 04 f2 00 00 00 03 34 00   ....C2........4.
+0030  06 00 00 00 00 72 03 00 00                        .....r...
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 8.898060       192.168.0.1           192.168.0.2           COTP     125    DT TPDU (0) EOT
+
+Frame 27: 125 bytes on wire (1000 bits), 125 bytes captured (1000 bits) on interface 0
+Ethernet II, Src: Siemens_5f:fa:41 (ac:64:17:5f:fa:41), Dst: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.2
+Transmission Control Protocol, Src Port: 102, Dst Port: 51137, Seq: 366, Ack: 927, Len: 71
+TPKT, Version: 3, Length: 71
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+Data (64 bytes)
+
+0000  72 03 00 38 20 a3 02 28 ee 34 42 03 7b 36 89 99   r..8 ..(.4B.{6..
+0010  18 7e 1a 99 92 9f 78 51 73 bb 53 65 6f 90 f1 7d   .~....xQs.Seo..}
+0020  66 fd ff 93 0a 32 00 00 05 86 00 00 00 04 34 00   f....2........4.
+0030  00 00 12 01 c9 c3 8f 05 00 00 00 00 72 03 00 00   ............r...
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 8.920134       192.168.0.1           192.168.0.2           COTP     183    DT TPDU (0) EOT
+
+Frame 31: 183 bytes on wire (1464 bits), 183 bytes captured (1464 bits) on interface 0
+Ethernet II, Src: Siemens_5f:fa:41 (ac:64:17:5f:fa:41), Dst: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.2
+Transmission Control Protocol, Src Port: 102, Dst Port: 51137, Seq: 437, Ack: 1035, Len: 129
+TPKT, Version: 3, Length: 129
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+Data (122 bytes)
+
+0000  72 03 00 72 20 62 50 a0 7f 58 37 f9 2a a2 e4 2f   r..r bP..X7.*../
+0010  44 4e f1 cc 20 0e 4d 15 d8 51 30 0e c9 6a 60 69   DN.. .M..Q0..j`i
+0020  b4 c6 06 88 c1 32 00 00 05 86 00 00 00 05 34 00   .....2........4.
+0030  00 00 14 00 3c 00 20 00 38 01 00 00 2a 36 45 53   ....<. .8...*6ES
+0040  37 20 35 31 35 2d 32 41 4d 30 31 2d 30 41 42 30   7 515-2AM01-0AB0
+0050  20 53 20 43 2d 4c 35 43 4d 37 37 37 36 32 30 31    S C-L5CM7776201
+0060  39 00 03 56 02 06 00 00 00 00 00 00 00 01 01 00   9..V............
+0070  0e 07 00 00 00 00 72 03 00 00                     ......r...
+
+No.     Time           Source                Destination           Protocol Length Info
+    502 174.836206     192.168.0.2           192.168.0.1           COTP     155    DT TPDU (0) EOT
+
+Frame 502: 155 bytes on wire (1240 bits), 155 bytes captured (1240 bits) on interface 0
+Ethernet II, Src: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e), Dst: Siemens_5f:fa:41 (ac:64:17:5f:fa:41)
+Internet Protocol Version 4, Src: 192.168.0.2, Dst: 192.168.0.1
+Transmission Control Protocol, Src Port: 51137, Dst Port: 102, Seq: 1280, Ack: 1484, Len: 101
+TPKT, Version: 3, Length: 101
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+[40 COTP Segments (94 bytes): #18(0), #22(0), #26(0), #28(0), #32(0), #36(0), #48(0), #57(0), #68(0), #77(0), #88(0), #97(0), #109(0), #118(0), #129(0), #138(0), #149(0), #158(0), #170(0), #179(0), #190(0), #237(0), #274(0), #283(0), #321(0]
+Data (94 bytes)
+
+0000  72 03 00 56 20 55 90 7b 72 c4 8a 49 37 24 4a 03   r..V U.{r..I7$J.
+0010  b5 d1 85 ef 32 55 09 6b a5 63 9e 51 90 b5 3a 69   ....2U.k.c.Q..:i
+0020  21 4e 38 8f 42 31 00 00 05 86 00 00 00 06 70 00   !N8.B1........p.
+0030  0e 4c 34 70 00 0e 4c 20 04 01 82 2c 00 00 04 e8   .L4p..L ...,....
+0040  89 69 00 12 00 00 00 00 89 6a 00 13 00 89 6b 00   .i.......j....k.
+0050  04 00 00 00 01 03 00 00 00 00 72 03 00 00         ..........r...
+
+No.     Time           Source                Destination           Protocol Length Info
+    503 174.837761     192.168.0.1           192.168.0.2           COTP     125    DT TPDU (0) EOT
+
+Frame 503: 125 bytes on wire (1000 bits), 125 bytes captured (1000 bits) on interface 0
+Ethernet II, Src: Siemens_5f:fa:41 (ac:64:17:5f:fa:41), Dst: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.2
+Transmission Control Protocol, Src Port: 102, Dst Port: 51137, Seq: 1484, Ack: 1381, Len: 71
+TPKT, Version: 3, Length: 71
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+Data (64 bytes)
+
+0000  72 03 00 38 20 49 83 7c 27 e4 27 a2 20 73 5c 8a   r..8 I.|'.'. s\.
+0010  b7 74 5f 84 26 4f 7d 75 b3 0b 28 4d ae 59 10 cf   .t_.&O}u..(M.Y..
+0020  7c 0d 43 bc 27 32 00 00 05 86 00 00 00 06 34 00   |.C.'2........4.
+0030  00 00 12 01 c9 c3 8f 09 00 00 00 00 72 03 00 00   ............r...
+
+No.     Time           Source                Destination           Protocol Length Info
+    507 174.862696     192.168.0.1           192.168.0.2           COTP     183    DT TPDU (0) EOT
+
+Frame 507: 183 bytes on wire (1464 bits), 183 bytes captured (1464 bits) on interface 0
+Ethernet II, Src: Siemens_5f:fa:41 (ac:64:17:5f:fa:41), Dst: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.2
+Transmission Control Protocol, Src Port: 102, Dst Port: 51137, Seq: 1555, Ack: 1489, Len: 129
+TPKT, Version: 3, Length: 129
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+Data (122 bytes)
+
+0000  72 03 00 72 20 47 34 67 12 88 33 ca 2b c6 c3 60   r..r G4g..3.+..`
+0010  a3 94 f5 ad 5b c8 3a d8 9c 0c 00 26 c9 9d 05 a0   ....[.:....&....
+0020  4d c8 7f bd 6a 32 00 00 05 86 00 00 00 07 34 00   M...j2........4.
+0030  00 00 14 00 3c 00 20 00 38 01 00 00 2a 36 45 53   ....<. .8...*6ES
+0040  37 20 35 31 35 2d 32 41 4d 30 31 2d 30 41 42 30   7 515-2AM01-0AB0
+0050  20 53 20 43 2d 4c 35 43 4d 37 37 37 36 32 30 31    S C-L5CM7776201
+0060  39 00 03 56 02 06 00 00 00 00 00 00 00 01 01 00   9..V............
+0070  0e 0b 00 00 00 00 72 03 00 00                     ......r...
+
+No.     Time           Source                Destination           Protocol Length Info
+    511 174.886129     192.168.0.1           192.168.0.2           COTP     122    DT TPDU (0) EOT
+
+Frame 511: 122 bytes on wire (976 bits), 122 bytes captured (976 bits) on interface 0
+Ethernet II, Src: Siemens_5f:fa:41 (ac:64:17:5f:fa:41), Dst: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.2
+Transmission Control Protocol, Src Port: 102, Dst Port: 51137, Seq: 1684, Ack: 1597, Len: 68
+TPKT, Version: 3, Length: 68
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+Data (61 bytes)
+
+0000  72 03 00 35 20 be 95 c9 e1 78 7e e3 ad 63 30 60   r..5 ....x~..c0`
+0010  09 ec 35 88 cb e6 4d 41 ec d8 a3 1c b3 79 ec 8e   ..5...MA.....y..
+0020  ae 43 24 34 e9 32 00 00 05 86 00 00 00 08 34 00   .C$4.2........4.
+0030  00 00 04 01 0d 00 00 00 00 72 03 00 00            .........r...
+
+No.     Time           Source                Destination           Protocol Length Info
+    515 174.911275     192.168.0.1           192.168.0.2           COTP     118    DT TPDU (0) EOT
+
+Frame 515: 118 bytes on wire (944 bits), 118 bytes captured (944 bits) on interface 0
+Ethernet II, Src: Siemens_5f:fa:41 (ac:64:17:5f:fa:41), Dst: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.2
+Transmission Control Protocol, Src Port: 102, Dst Port: 51137, Seq: 1752, Ack: 1705, Len: 64
+TPKT, Version: 3, Length: 64
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+Data (57 bytes)
+
+0000  72 03 00 31 20 18 cf c3 df 34 53 78 f3 03 da c0   r..1 ....4Sx....
+0010  58 60 a2 90 cf 41 76 27 93 67 b2 03 10 1b c1 7c   X`...Av'.g.....|
+0020  4c 23 dc f6 96 32 00 00 04 f2 00 00 00 09 34 00   L#...2........4.
+0030  0d 00 00 00 00 72 03 00 00                        .....r...
+
+No.     Time           Source                Destination           Protocol Length Info
+    519 174.934525     192.168.0.1           192.168.0.2           COTP     129    DT TPDU (0) EOT
+
+Frame 519: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits) on interface 0
+Ethernet II, Src: Siemens_5f:fa:41 (ac:64:17:5f:fa:41), Dst: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.2
+Transmission Control Protocol, Src Port: 102, Dst Port: 51137, Seq: 1816, Ack: 1807, Len: 75
+TPKT, Version: 3, Length: 75
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+Data (68 bytes)
+
+0000  72 03 00 3c 20 9f 94 60 82 b3 a6 a5 a4 99 4a 56   r..< ..`......JV
+0010  9f 7a 83 47 0c 7e f9 5e 8d 38 f7 4c 0c 70 df ef   .z.G.~.^.8.L.p..
+0020  87 5e c6 84 1f 32 00 00 04 d4 00 00 00 0a 34 90   .^...2........4.
+0030  88 f0 80 80 82 8a 80 2d 70 00 0e 4c 00 00 00 00   .......-p..L....
+0040  72 03 00 00                                       r...
+
+No.     Time           Source                Destination           Protocol Length Info
+    520 174.934763     192.168.0.1           192.168.0.2           COTP     87     DT TPDU (0) EOT
+
+Frame 520: 87 bytes on wire (696 bits), 87 bytes captured (696 bits) on interface 0
+Ethernet II, Src: Siemens_5f:fa:41 (ac:64:17:5f:fa:41), Dst: AsixElec_c9:15:7e (00:0e:c6:c9:15:7e)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.2
+Transmission Control Protocol, Src Port: 102, Dst Port: 51137, Seq: 1891, Ack: 1807, Len: 33
+TPKT, Version: 3, Length: 33
+ISO 8073/X.224 COTP Connection-Oriented Transport Protocol
+Data (26 bytes)
+
+0000  72 fe 00 16 00 00 00 00 00 00 05 28 00 00 00 00   r..........(....
+0010  00 00 00 00 4c 4f 47 4f 55 54                     ....LOGOUT
